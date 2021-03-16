@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This runs benchmarks, by default from develop branch of
-# github.com/neatio-project/go-merkle
+# github.com/neatlib/merkle-go
 # You can customize this by optional command line args
 #
 # INSTALL_USER.sh [branch] [repouser]
@@ -20,7 +20,7 @@ EOF
 . ~/.goenv
 
 mkdir -p $GOPATH/src/github.com/tendermint
-MERKLE=$GOPATH/src/github.com/neatio-project/go-merkle
+MERKLE=$GOPATH/src/github.com/neatlib/merkle-go
 git clone https://github.com/${REPOUSER}/go-merkle.git $MERKLE
 cd $MERKLE
 git checkout ${BRANCH}

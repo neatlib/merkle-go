@@ -3,8 +3,8 @@ package merkle
 import (
 	"bytes"
 
-	. "github.com/neatio-project/go-common"
-	. "github.com/neatio-project/go-common/test"
+	. "github.com/neatlib/common-go"
+	. "github.com/neatlib/common-go/test"
 
 	"testing"
 )

@@ -2,7 +2,7 @@
 
 . ~/.goenv
 
-MERKLE=$GOPATH/src/github.com/neatio-project/go-merkle
+MERKLE=$GOPATH/src/github.com/neatlib/merkle-go
 cd $MERKLE
 git pull
 
