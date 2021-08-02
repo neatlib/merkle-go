@@ -1,1 +1,1 @@
-# merkle-go library
+# Merkle Go Library
